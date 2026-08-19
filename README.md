@@ -14,11 +14,17 @@ Plně funkční, responzivní prezentační šablona moderního e-shopu se spot�
 
 ## 📸 Ukázky z E-shopu (Screenshots)
 
-### 1. Hlavní stránka & Hero Banner s živým vyhledáváním
-![ELEKTRO MARKET Hlavní Stránka](docs/screenshots/hero_preview.png)
+### 1. Hlavní stránka & Hero Banner s živým počítadlem
+![Hlavní stránka a Hero Banner](docs/screenshots/01_hero_banner.png)
 
-### 2. Živé statistiky návštěvnosti & Sociální důkaz
-![Statistiky návštěvnosti a online uživatelů](docs/screenshots/visitors_stats.png)
+### 2. Katalog produktů, rychlé pilulky & pokročilé filtrování
+![Katalog a Filtrování](docs/screenshots/02_catalog_filters.png)
+
+### 3. Interaktivní nákupní košík s dopravou zdarma a slevami
+![Nákupní košík](docs/screenshots/03_cart_drawer.png)
+
+### 4. Detailní srovnávač parametrů produktů
+![Srovnávač parametrů](docs/screenshots/04_comparison_modal.png)
 
 ---
 

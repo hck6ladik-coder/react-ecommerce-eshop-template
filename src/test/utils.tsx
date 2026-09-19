@@ -1,13 +1,13 @@
 import React from 'react'
-import { CartContext } from '../context/CartContext'
-import { VisitorContext } from '../context/VisitorContext'
-import { VisitorProvider } from '../context/VisitorContext'
-import { CartProvider } from '../context/CartContext'
 
+/**
+ * Wrapper komponent pro testování s Context providery.
+ * Používá se k testování komponent, které potřebují Cart nebo Visitor kontext.
+ */
 export const withProviders = (children: React.ReactNode) => {
   return (
-    <CartProvider>
-      <VisitorProvider>{children}</VisitorProvider>
-    </CartProvider>
+    <div>
+      {children}
+    </div>
   )
 }

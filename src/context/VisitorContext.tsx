@@ -10,6 +10,10 @@ interface VisitorContextType {
 
 const VisitorContext = createContext<VisitorContextType | undefined>(undefined);
 
+export type { VisitorContextType };
+
+export { VisitorContext };
+
 export const VisitorProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Base numbers
   const [onlineUsers, setOnlineUsers] = useState(38);

@@ -40,6 +40,10 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
+export type { CartContextType };
+
+export { CartContext };
+
 const FREE_SHIPPING_THRESHOLD = 2000; // 2 000 Kč pro dopravu zdarma
 const EUR_EXCHANGE_RATE = 25.2;
 

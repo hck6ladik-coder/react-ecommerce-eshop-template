@@ -1,4 +1,4 @@
-import React, { ReactNode, useState, useEffect } from 'react'
+import React, { ReactNode } from 'react'
 
 interface ErrorBoundaryState {
   hasError: boolean
@@ -15,7 +15,7 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
     this.state = { hasError: false }
   }
 
-  static getDerivedStateFromError(error: Error) {
+  static getDerivedStateFromError(_error: Error) {
     // Update state so the next render will show the fallback
     return { hasError: true }
   }
